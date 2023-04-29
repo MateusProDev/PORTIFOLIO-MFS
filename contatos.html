@@ -34,8 +34,20 @@
         <section>
             <div class="git">
                 <h2>ACESSE NOSSOS PROJETOS</h2>
-                <p>Visite nosso projetos no meu endereço do GitHub, e fique atualizado sobre algumas de nossas copetências.</p>
+                <p>Visite nossos projetos no meu endereço do GitHub, e fique atualizado sobre algumas de nossas copetências, acessando nossas redes sociais ou entre em contato conosco através do formulario logo abaixo.</p>
             </div>
+            <form action="enviar-email.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <input type="submit" value="Enviar">
+              </form>
             <hr class="linhabottom">
             <div class="giticon">
                 <figure>
