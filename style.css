@@ -57,7 +57,6 @@ body {
 .conteudo {
     overflow: scroll;
     display: flex;
-    justify-content: center;
 }
 .conteudo1 {
     border: 1px solid rgb(193, 225, 240);
