@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* inicio do modelo responsivo do menu*/
+
+.menu header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    display: flex;
+}
+
+.menu a {
+    margin-top: 42px;
+    font-size: 12px;
+    color: #dadada;
+}
+
+.menu a:hover { 
+    background-color: #24759b;
+    color: #ffffff;
+}
+
+.logo {
+    font-size: 15px;
+    margin-left: -36px;
+    margin-top: 39px;
+    color: #012330;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #012330;
+    font-size: 12px;
+}
+
+.menu {
+    background-color: rgb(41, 107, 151);
+    margin-top: -20px;
+}
+/* fim do modelo responsivo do menu*/
+
+/* INICIO DO CORPO DO SITE*/
+
+.banner img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.conteudo {
+    margin: 20px;
+}
+
+.conteudo h2 {
+    font-size: 16px;
+}
+
+.conteudo p {
+    font-size: 12px;
+}
+
+.icon img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+
+/*FIM DO CORPO DO SITE*/
+
+/* INICIO DO RODAPÉ DO SITE*/
+
+.git p {
+    font-size: 12px;
+}
+
+.giticon li  {
+    color: #fff;
+}
+
+.giticon img {
+    width: 20px;
+    margin-left: -62px;
+}
+
+.giticon a {
+    display: flex;
+}
+
+hr {
+    border-color: rgb(185, 219, 241);
+}
+
+section {
+    margin: 20px;
+}
+
+section h2 {
+    font-size: 16px;
+}
+
+
+.linhabottom {
+    width: 60px;
+    border-color: #ffffff;
+    margin-left: 0px;
+}
+
+footer {
+    background-color: rgb(41, 107, 151);
+    margin: 0px 0;
+    padding: 10px 0px 10px 0px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
+
+.secao {
+    text-align: left;
+}
+
+
+/* FIM DO RODAPÉ DO SITE*/

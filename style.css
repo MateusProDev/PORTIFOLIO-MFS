@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* inicio do modelo responsivo do menu*/
+
+.menu header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    display: flex;
+}
+
+.menu a {
+    margin-top: 42px;
+    font-size: 12px;
+    color: #dadada;
+}
+
+.menu a:hover { 
+    background-color: #24759b;
+    color: #ffffff;
+}
+
+.logo {
+    font-size: 15px;
+    margin-left: -36px;
+    margin-top: 39px;
+    color: #012330;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #012330;
+    font-size: 12px;
+}
+
+.menu {
+    background-color: rgb(41, 107, 151);
+    margin-top: -20px;
+}
+
+/* fim do modelo responsivo do menu*/
+
+/* INICIO DO CORPO DO SITE*/
+
+.banner img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.conteudo {
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+}
+.conteudo1 {
+    border: 1px solid rgb(193, 225, 240);
+    margin: 20px;
+    background-color: #fcf8f8;
+    padding: 15px;
+    margin-inline: 10px 10px;
+}
+.conteudo1 h2 {  
+    font-size: 16px;
+}
+.conteudo1 p {
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+.conteudo1 img {
+    margin: 0px 10px 20px 10px;
+    width: 225px;
+    float: left;
+    height: 125px;
+}
+
+section {
+    margin: 20px;
+}
+
+section h2 {
+    font-size: 16px;
+}
+
+section p {
+    font-size: 12px;
+}
+/*FIM DO CORPO DO SITE*/
+
+/* INICIO DO RODAPÉ DO SITE*/
+
+figure {
+    justify-content: left;
+}
+
+.github li {
+    display: flex;
+}
+
+.github img {
+    width: 20px;
+    margin-left:-65px;
+}
+
+hr {
+    border-color: rgb(185, 219, 241);
+}
+.linha {
+    width: 60px;
+    margin-left: -1px;
+    border-color: #ffffff;
+}
+footer {
+    background-color: rgb(41, 107, 151);
+    margin: 0px 0;
+    padding: 10px 0px 10px 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+/* FIM DO RODAPÉ DO SITE*/
